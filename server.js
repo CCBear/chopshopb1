@@ -28,7 +28,6 @@ connection.once('open', () => {
  app.use('/exercises', exercisesRouter);
  app.use('/users', usersRouter);
 
-// comment 
 
 app.listen(port, () => {
     console.log("Mongodb database connection established successfully");
